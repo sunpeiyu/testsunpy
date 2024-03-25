@@ -1,32 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T07:11:01.498Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="O6Q7DsIyqde0N74GL0qT" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-25T07:13:15.715Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="3j2QweS7QABJqZX8z7xS" version="24.0.4" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="77e6c97f196da883-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="40" width="970" height="750" as="geometry" />
+        <mxCell id="77e6c97f196da883-1" value="" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="70" y="40" width="970" height="790" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-2" value="虚拟机" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry y="20" width="130" height="730" as="geometry" />
+        <mxCell id="77e6c97f196da883-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;虚拟机&lt;/font&gt;" style="swimlane;html=1;startSize=60;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry y="20" width="130" height="770" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-3" value="堡垒机" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="130" y="20" width="280" height="730" as="geometry" />
+        <mxCell id="77e6c97f196da883-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;堡垒机&lt;/font&gt;" style="swimlane;html=1;startSize=60;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry x="130" y="20" width="280" height="770" as="geometry" />
         </mxCell>
-        <mxCell id="uph5sfU3wwESWTErg2y2-1" value="1、部署K8S环境" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="40" y="60" width="200" height="160" as="geometry" />
+        <mxCell id="uph5sfU3wwESWTErg2y2-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;1、部署K8S环境&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="40" y="101" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-4" value="防火墙" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="410" y="20" width="280" height="730" as="geometry" />
+        <mxCell id="77e6c97f196da883-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;防火墙&lt;/font&gt;" style="swimlane;html=1;startSize=60;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry x="410" y="20" width="280" height="770" as="geometry" />
         </mxCell>
-        <mxCell id="uph5sfU3wwESWTErg2y2-2" value="1、开发三方系统接口" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="40" y="60" width="200" height="160" as="geometry" />
+        <mxCell id="uph5sfU3wwESWTErg2y2-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;1、开发三方系统接口&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="40" y="101" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-5" value="财升宝APP" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="690" y="20" width="280" height="730" as="geometry" />
+        <mxCell id="77e6c97f196da883-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;财升宝APP&lt;/font&gt;" style="swimlane;html=1;startSize=60;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry x="690" y="20" width="280" height="770" as="geometry" />
         </mxCell>
-        <mxCell id="uph5sfU3wwESWTErg2y2-4" value="1、对接APP登录&lt;div&gt;2、消息通知&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-5">
-          <mxGeometry x="40" y="60" width="200" height="160" as="geometry" />
+        <mxCell id="uph5sfU3wwESWTErg2y2-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;1、对接APP登录&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;2、消息通知&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="77e6c97f196da883-5">
+          <mxGeometry x="40" y="101" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="uph5sfU3wwESWTErg2y2-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-1" source="uph5sfU3wwESWTErg2y2-1" target="uph5sfU3wwESWTErg2y2-2">
           <mxGeometry relative="1" as="geometry" />
